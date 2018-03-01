@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="my.com.razi.ionic1pouchdbcordovasqlite" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Ionic1-PouchDb-Cordova-Sqlite</name>
+    <description>
+        Cordova sqlite bootstrap test app: template to demonstrate reproducible issues with Cordova sqlite plugin.
+        (as at 2018-02-24, the workable phonegap-version is cli-6.3.0)
+    </description>
+    <author email="razi.com.my@gmail.com" href="https://github.com/razicommy">
+        Razi ComMy
+    </author>
+    <content src="index.html" />
+    <preference name="phonegap-version" value="cli-6.3.0" />     
+    <plugin name="cordova-plugin-dialogs"  />
+<plugin name="cordova-sqlite-storage" version="1.2.1" />
+<plugin name="cordova-plugin-file" />
+</widget>
